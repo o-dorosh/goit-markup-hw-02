@@ -21,6 +21,7 @@ body{
     line-height: 1.912;
     letter-spacing: 0.03em;
     text-decoration: none;
+    color: var(--main-color);
 }
 
 .logo-accent{
@@ -106,6 +107,9 @@ logo-light-theme{
 /*======================== END HEADER ========================*/
 
 /*======================== HERO ========================*/
+.hero{
+    background: #2F303A;
+}
 
 .hero-title{
     font-weight: 900;
@@ -114,10 +118,8 @@ logo-light-theme{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
 }
-
-/*BUTTON*/
 
 /*======================== END HERO ========================*/
 
@@ -165,8 +167,12 @@ logo-light-theme{
 
 /*======================== FOOTER ========================*/
 
+.footer{
+    background: #2F303A;
+}
+
 .logo-dark-theme{
-   /* color: #FFFFFF;*/
+    color: #FFFFFF;
 }
 
 .footer-address-link{
@@ -175,7 +181,7 @@ logo-light-theme{
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    /*color: #FFFFFF;*/
+    color: #FFFFFF;
     text-decoration: none;
 }
 
