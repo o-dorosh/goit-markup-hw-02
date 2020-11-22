@@ -175,14 +175,19 @@ logo-light-theme{
     color: #FFFFFF;
 }
 
-.footer-address-link{
+.footer-address-link,
+.footer-address-contact{
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.footer-address-contact{
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-address-link:hover,
